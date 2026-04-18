@@ -38,9 +38,7 @@ if __name__ == "__main__":
     # Print the texte detected in the original image
     print("Text detected in the original image is:")
     print(text1)
-
-
-
+    
     # Display the grayscale image in a window
     cv.imshow('Grayscale Image', gray)
     cv.waitKey(0)
